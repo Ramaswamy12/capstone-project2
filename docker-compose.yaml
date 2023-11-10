@@ -2,7 +2,6 @@ version: "3.8"
 services:
   react:
     image: myreactimg
-    container_name: myreactcont4
     ports:
       - "80:80"
     volumes:
