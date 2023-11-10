@@ -5,8 +5,7 @@ PROD_REPO="prod"
 DOCKERHUB_PASSWORD="dckr_pat_W8WCZwTlaOGcNsEniO_3nRGe0Dc"
 docker login -u "$DOCKERHUB_USERNAME" -p "$DOCKERHUB_PASSWORD"
 
-Vennilavan3:47 PM
-#!/bin/bash
+
 
 # Check the Git branch
 if [[ $GIT_BRANCH == "origin/dev" ]]; then
